@@ -119,7 +119,7 @@ pub struct SortConfig {
 impl Default for SortConfig {
     fn default() -> Self {
         Self {
-            input_len: 100,
+            input_len: 96, // LCM of 12 & 32; useful for pitch and computation
             sorting_algorithm: SortingAlgorithm::default(),
             audio_enabled: true,
             playback_time: 10.0,
