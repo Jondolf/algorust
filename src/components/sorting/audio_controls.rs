@@ -19,8 +19,8 @@ impl Default for AudioConfig {
         Self {
             enabled: true,
             sound_type: OscillatorType::Sine,
-            min_frequency: 50.0,
-            max_frequency: 800.0,
+            min_frequency: 55.0, // A1 in standard tuning
+            max_frequency: 880.0, // A5 in standard tuning
             note_duration: Duration::from_millis(200),
         }
     }
